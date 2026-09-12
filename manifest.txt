@@ -1,4 +1,0 @@
-VERSION=v0.9.46
-BIN_URL=http://10.0.0.69:8000/Multimatic_Motorsports_Watch_v0_9_46_UI.ino.bin
-NOTES=Firmware v0.9.46 TEST BUILD- UI improvements and fixes, ALWAYS-ON OTA + PROGRESS + ABOUT
-MD5=4
