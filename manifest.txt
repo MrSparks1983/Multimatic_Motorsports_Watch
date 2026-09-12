@@ -1,4 +1,4 @@
-VERSION=v0.9.51
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/ProWatch_v0_9_51.bin
-NOTES=Combined battery percentage and icon, improved header spacing, and retained charging/low-battery color behavior.
+VERSION=v0.9.52
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v0_9_52_UI.ino.bin
+NOTES=Improved OTA reliability with complete-download validation, boot-partition verification, redirect support, and live firmware progress.
 MD5=
