@@ -1,4 +1,4 @@
-VERSION=v0.9.52
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v0_9_52_UI.ino.bin
-NOTES=Improved OTA reliability with complete-download validation, boot-partition verification, redirect support, and live firmware progress.
+VERSION=v0.9.53
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v0_9_53_UI.ino.bin
+NOTES=Enabled the onboard ES8311 speaker subsystem and I2S audio output, initialized the speaker hardware at boot, kept the amplifier muted while idle for lower power use, and prepared the firmware for future alert tones and audio notifications.
 MD5=
