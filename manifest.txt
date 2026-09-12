@@ -1,4 +1,4 @@
 VERSION=v0.9.57
 BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v0_9_57_UI.ino.bin
-NOTES=Improved OTA verification by confirming the uploaded BIN contains the expected firmware version, validating the inactive OTA partition, verifying the next boot partition, and preventing reboot when firmware validation fails.
+NOTES=Improved OTA reliability, fixed immediate reboot during feed install, added safer firmware verification and reboot handling.
 MD5=
