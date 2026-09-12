@@ -1,4 +1,4 @@
 VERSION=v0.9.48
-BIN_URL=https://github.com/MrSparks1983/Multimatic_Motorsports_Watch.git/main/firmware/Multimatic_Motorsports_Watch_v0_9_48_UI.ino.bin
-NOTES=Added HTTP/HTTPS firmware update support, reliable Download & Install option, OTA progress display, persistent always-on OTA, fixed admin password, and improved About page layout.
-MD5=<firmware-md5>
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/main/firmware/Multimatic_Motorsports_Watch_v0_9_48_UI.ino.bin
+NOTES=HTTP/HTTPS OTA support, reliable Download & Install, firmware progress bar, persistent OTA, fixed admin login, and About page improvements.
+MD5=
