@@ -1,4 +1,4 @@
-VERSION=v0.9.58
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v0_9_58_UI.ino.bin
-NOTES=Improved OTA reliability, fixed immediate reboot during feed install, added safer firmware verification and reboot handling.
+VERSION=v0.9.60
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v0_9_60_UI.ino.bin
+NOTES=Added split header gestures: left-side navigation shade, right-side Quick Settings with Raise to Wake, Wi-Fi, Bluetooth and speaker volume controls.
 MD5=
