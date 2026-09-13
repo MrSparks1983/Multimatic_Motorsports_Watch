@@ -1,4 +1,4 @@
-VERSION=v1.0.4
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_0_4_UI.ino.bin
-NOTES=Fixed Arduino prototype compilation issues while retaining the updated UI, gesture, Crew delete, USB performance and Firmware Settings improvements.
+VERSION=v1.0.5
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_0_5_UI.ino.bin
+NOTES=Fixed swipe-up shade closing with raw finger tracking and animated snap-close behavior.
 MD5=
