@@ -1,4 +1,4 @@
 VERSION=v1.5.1
 BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_1_UI.ino.bin
-NOTES=UI polish update with redesigned Control Center, brightness control, improved charging screen, telemetry refinements and 150mA charge profile for 320mAh battery.
+NOTES=Restored full 240MHz active UI performance, removed global USB charging CPU throttle, and preserved Low Power Standby.
 MD5=
