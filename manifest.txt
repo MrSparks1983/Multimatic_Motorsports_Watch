@@ -1,4 +1,4 @@
-VERSION=v1.2.3
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_1_1_UI.ino.bin
+VERSION=v1.5.1
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_1_UI.ino.bin
 NOTES=UI polish update with redesigned Control Center, brightness control, improved charging screen, telemetry refinements and 150mA charge profile for 320mAh battery.
 MD5=
