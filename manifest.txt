@@ -1,4 +1,4 @@
-VERSION=v1.5.3
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_3_UI.ino.bin
-NOTES=Adaptive live battery drain estimate plus enlarged PIN keypad buttons and labels.
+VERSION=v1.5.4
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_4_UI.ino.bin
+NOTES=QMI8658 hardware Wake-on-Motion Raise-to-Wake with GPIO21 interrupt, orientation confirmation, 500ms PWR maintenance polling, and automatic 60ms software fallback.
 MD5=
