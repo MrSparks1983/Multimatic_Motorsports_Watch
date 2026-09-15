@@ -1,4 +1,4 @@
-VERSION=v1.5.1
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_1_UI.ino.bin
-NOTES=Restored full 240MHz active UI performance, removed global USB charging CPU throttle, and preserved Low Power Standby.
+VERSION=v1.5.2
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_2_UI.ino.bin
+NOTES=Fixed Battery History charge/discharge/USB legend and added live battery power-flow display with estimated discharge current.
 MD5=
