@@ -1,4 +1,4 @@
-VERSION=v1.5.2
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_2_UI.ino.bin
-NOTES=Fixed Battery History charge/discharge/USB legend and added live battery power-flow display with estimated discharge current.
+VERSION=v1.5.3
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_5_3_UI.ino.bin
+NOTES=Adaptive live battery drain estimate plus enlarged PIN keypad buttons and labels.
 MD5=
