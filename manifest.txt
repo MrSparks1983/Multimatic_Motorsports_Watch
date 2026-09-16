@@ -1,4 +1,4 @@
 VERSION=v1.6.8
 BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_8_UI.ino.bin
-NOTES=Persistent Tech Alert/Event History with per-condition caution/critical records, ACK and clear timestamps, Settings and Session access, event detail view, and confirmed history clearing. Battery logger and low-power system preserved.
+NOTES=Stability + touch guard: disables true ESP32 light-sleep during validation to prevent wake reboots; keeps USB/VBUS at full CPU speed; preserves Wi-Fi/BLE on USB; improves top pull-down reliability; makes Settings scrolling more responsive; suppresses drag-release clicks; defers noncritical radio/network work during active touch gestures; retains remote OTA bridge CAP=FWREMOTE, FW_CHECK and FW_UPDATE_LATEST.
 MD5=
