@@ -1,4 +1,4 @@
 VERSION=v1.6.13
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_13_OTA_FEED_RELIABILITY.bin
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_13_UI.ino
 NOTES=OTA feed reliability update: improves GitHub HTTPS firmware checks by temporarily disabling Wi-Fi modem sleep during manifest retrieval, increasing connection and read timeouts to 12 seconds, retrying failed feed requests up to three times with fresh network clients, following redirects and providing detailed negative HTTP transport error messages. Retains v1.6.12 version synchronization, Settings/header scroll ownership protection, USB stability fixes, Wi-Fi/BLE connectivity and remote OTA bridge.
 MD5=
