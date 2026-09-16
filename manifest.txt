@@ -1,4 +1,4 @@
-VERSION=v1.6.18
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_18.bin
-NOTES=OTA BLE soft-handoff stability fix: removes the full BLEDevice deinitialization that could trigger a cyclical reboot immediately after FW:WIFI_HANDOFF. OTA now stops BF1 scanning and companion advertising, gracefully disconnects the active Windows GATT connection, and leaves the BLE controller, GATT server, services and characteristics initialized while Wi-Fi performs manifest and firmware transfer. Advertising resumes without rebuilding the BLE stack if the check fails or no update is available. Successful OTA remains Wi-Fi-only until verification and a single controlled reboot. Retains USB screen-off stability, Settings scroll hard-limit, touch ownership, Wi-Fi connectivity and remote OTA support.
+VERSION=v1.6.19
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_19.bin
+NOTES=Version and release-note synchronization update. All firmware version reporting now derives from one canonical WATCH_FW_VERSION_TEXT definition used by the splash, Firmware/About UI, BLE identity/status, OTA verification marker and serial startup reporting. Firmware header notes are refreshed to document the current OTA BLE soft-handoff, USB screen-off stability, Settings hard-scroll protections, OTA feed reliability improvements and retained remote OTA bridge behavior.
 MD5=
