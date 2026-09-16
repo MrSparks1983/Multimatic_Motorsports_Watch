@@ -1,4 +1,4 @@
-VERSION=v1.6.26
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_26_UI.ino.bin
+VERSION=v1.6.28
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_28_UI.ino.bin
 NOTES=OTA validation target for the v1.6.25 direct-manifest pipeline. Successful installation should retrieve the manifest after BLE handoff using direct WiFiClientSecure transport, download and verify the firmware image, activate the inactive OTA partition, reboot once and reconnect reporting FW=v1.6.26.
 MD5=
