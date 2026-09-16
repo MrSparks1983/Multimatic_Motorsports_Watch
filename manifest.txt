@@ -1,4 +1,4 @@
-VERSION=v1.6.24
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_24_UI.ino.bin
-NOTES=OTA validation target for v1.6.23 robust GitHub/CDN updater. Retains redirect handling, Content-Length and chunked transfer support, direct WiFiClientSecure firmware transfer, MD5 and firmware marker verification, bounded Settings scrolling, USB screen-off stability and BLE OTA handoff protection.
+VERSION=v1.6.26
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_26_UI.ino.bin
+NOTES=OTA validation target for the v1.6.25 direct-manifest pipeline. Successful installation should retrieve the manifest after BLE handoff using direct WiFiClientSecure transport, download and verify the firmware image, activate the inactive OTA partition, reboot once and reconnect reporting FW=v1.6.26.
 MD5=
