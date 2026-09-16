@@ -1,4 +1,4 @@
-VERSION=v1.6.19
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_19.bin
-NOTES=Version and release-note synchronization update. All firmware version reporting now derives from one canonical WATCH_FW_VERSION_TEXT definition used by the splash, Firmware/About UI, BLE identity/status, OTA verification marker and serial startup reporting. Firmware header notes are refreshed to document the current OTA BLE soft-handoff, USB screen-off stability, Settings hard-scroll protections, OTA feed reliability improvements and retained remote OTA bridge behavior.
+VERSION=v1.6.20
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_20.bin
+NOTES=OTA BLE handoff lock: prevents Windows from reconnecting during the Wi-Fi OTA phase. The watch now stops BF1 scanning and companion advertising, gracefully disconnects the active GATT link, rejects any BLE connection attempt while OTA owns the radio, and keeps advertising hard-disabled until the handoff is released. Retains the BLE soft-handoff architecture without BLEDevice deinitialization, USB screen-off stability, Settings scroll protections, OTA feed reliability and canonical firmware version synchronization.
 MD5=
