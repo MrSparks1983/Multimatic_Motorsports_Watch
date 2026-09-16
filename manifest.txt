@@ -1,4 +1,4 @@
-VERSION=v1.6.16
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_16.bin
-NOTES=OTA Wi-Fi handoff fix: addresses repeated ESP32 HTTPS error -1 while Wi-Fi and BLE are active together. Firmware now releases BLE after an initial feed connection failure, gives Wi-Fi exclusive radio and heap ownership, retries the manifest using a direct WiFiClientSecure HTTP request with separate DNS diagnostics, keeps Wi-Fi modem sleep disabled during OTA transport, and restores BLE automatically after failed or no-update checks. Remote FW_UPDATE_LATEST keeps BLE suspended through firmware download and reboot. Retains v1.6.15 Settings scroll hard-limit, touch ownership, USB stability and connectivity fixes.
+VERSION=v1.6.17
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_17.bin
+NOTES=USB screen-off stability hotfix: prevents repeated rebooting when the display timeout occurs while USB/VBUS is connected. While externally powered the watch now uses a zero-brightness pseudo-off state instead of issuing the AMOLED hardware displayOff command; the display controller remains initialized and brightness is restored directly on wake. Battery-powered screen-off behavior remains unchanged. Retains OTA Wi-Fi handoff, Settings scroll hard-limit, touch ownership, Wi-Fi/BLE connectivity and remote OTA support.
 MD5=
