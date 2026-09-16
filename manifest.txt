@@ -1,4 +1,4 @@
-VERSION=v1.6.13
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_13_UI.ino
-NOTES=OTA feed reliability update: improves GitHub HTTPS firmware checks by temporarily disabling Wi-Fi modem sleep during manifest retrieval, increasing connection and read timeouts to 12 seconds, retrying failed feed requests up to three times with fresh network clients, following redirects and providing detailed negative HTTP transport error messages. Retains v1.6.12 version synchronization, Settings/header scroll ownership protection, USB stability fixes, Wi-Fi/BLE connectivity and remote OTA bridge.
+VERSION=v1.6.14
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_14_SETTINGS_SCROLL_BOUNDARY.bin
+NOTES=Settings scroll boundary fix: caps manual Settings edge overscroll so the menu can no longer be dragged completely outside the viewport; allows a small controlled 22px edge stretch for natural touch feedback; explicitly snaps the Settings page back to the legal top or bottom boundary when the finger is released; retains Settings/header touch ownership, accidental-click suppression, USB stability protections, Wi-Fi/BLE connectivity and v1.6.13 OTA feed reliability improvements.
 MD5=
