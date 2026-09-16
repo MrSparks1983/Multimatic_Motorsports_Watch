@@ -1,4 +1,4 @@
-VERSION=v1.6.14
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_14.bin
-NOTES=Settings scroll boundary fix: caps manual Settings edge overscroll so the menu can no longer be dragged completely outside the viewport; allows a small controlled 22px edge stretch for natural touch feedback; explicitly snaps the Settings page back to the legal top or bottom boundary when the finger is released; retains Settings/header touch ownership, accidental-click suppression, USB stability protections, Wi-Fi/BLE connectivity and v1.6.13 OTA feed reliability improvements.
+VERSION=v1.6.15
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_15.bin
+NOTES=Settings scroll hard-limit fix: disables LVGL elastic overscroll and momentum on the Settings page so the raw FT3168 touch handler is the only active scroll engine; captures an immutable legal scroll range at finger-down; prevents the bottom boundary from drifting during repeated drag samples; hard-clamps Settings to the legal top and bottom positions so content cannot continue scrolling after finger-up or disappear off-screen; retains Settings/header touch ownership, accidental-click suppression, USB stability protections, Wi-Fi/BLE connectivity and OTA feed diagnostics.
 MD5=
