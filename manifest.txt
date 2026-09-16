@@ -1,4 +1,4 @@
-VERSION=v1.6.12
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_12_VERSION_DISPLAY_SYNC.bin
-NOTES=Version display synchronization fix: startup splash, Firmware/About page and USB serial startup banner now use the canonical WATCH_FIRMWARE_VERSION value instead of duplicated hard-coded version strings; updates firmware marker to v1.6.12; retains v1.6.11 Settings/header scroll ownership fix, touch-release protection, USB stability fixes, Wi-Fi/BLE connectivity and remote OTA bridge.
+VERSION=v1.6.13
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_13_OTA_FEED_RELIABILITY.bin
+NOTES=OTA feed reliability update: improves GitHub HTTPS firmware checks by temporarily disabling Wi-Fi modem sleep during manifest retrieval, increasing connection and read timeouts to 12 seconds, retrying failed feed requests up to three times with fresh network clients, following redirects and providing detailed negative HTTP transport error messages. Retains v1.6.12 version synchronization, Settings/header scroll ownership protection, USB stability fixes, Wi-Fi/BLE connectivity and remote OTA bridge.
 MD5=
