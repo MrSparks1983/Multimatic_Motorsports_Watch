@@ -1,4 +1,4 @@
-VERSION=v1.6.15
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_15.bin
-NOTES=Settings scroll hard-limit fix: disables LVGL elastic overscroll and momentum on the Settings page so the raw FT3168 touch handler is the only active scroll engine; captures an immutable legal scroll range at finger-down; prevents the bottom boundary from drifting during repeated drag samples; hard-clamps Settings to the legal top and bottom positions so content cannot continue scrolling after finger-up or disappear off-screen; retains Settings/header touch ownership, accidental-click suppression, USB stability protections, Wi-Fi/BLE connectivity and OTA feed diagnostics.
+VERSION=v1.6.16
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_16.bin
+NOTES=OTA Wi-Fi handoff fix: addresses repeated ESP32 HTTPS error -1 while Wi-Fi and BLE are active together. Firmware now releases BLE after an initial feed connection failure, gives Wi-Fi exclusive radio and heap ownership, retries the manifest using a direct WiFiClientSecure HTTP request with separate DNS diagnostics, keeps Wi-Fi modem sleep disabled during OTA transport, and restores BLE automatically after failed or no-update checks. Remote FW_UPDATE_LATEST keeps BLE suspended through firmware download and reboot. Retains v1.6.15 Settings scroll hard-limit, touch ownership, USB stability and connectivity fixes.
 MD5=
