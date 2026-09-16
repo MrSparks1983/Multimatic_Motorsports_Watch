@@ -1,4 +1,4 @@
-VERSION=v1.6.8
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_8_UI.ino.bin
-NOTES=Stability + touch guard: disables true ESP32 light-sleep during validation to prevent wake reboots; keeps USB/VBUS at full CPU speed; preserves Wi-Fi/BLE on USB; improves top pull-down reliability; makes Settings scrolling more responsive; suppresses drag-release clicks; defers noncritical radio/network work during active touch gestures; retains remote OTA bridge CAP=FWREMOTE, FW_CHECK and FW_UPDATE_LATEST.
+VERSION=v1.6.9
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_9_DROPDOWN_SCROLL_FIX.bin
+NOTES=Dropdown scrolling fix: adds a dedicated scrollable Navigation and Control Center body; vertical drags now scroll instead of activating menu rows; cancels child presses once a scroll is detected; adds a 220ms drag-release guard to prevent the item under the lifted finger from opening; preserves horizontal brightness and volume slider control; restricts swipe-up-to-close to the fixed shade title area; retains v1.6.8 stability protections, USB connectivity fixes, Wi-Fi/BLE availability and remote OTA bridge.
 MD5=
