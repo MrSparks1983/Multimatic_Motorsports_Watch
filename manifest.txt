@@ -1,4 +1,4 @@
-VERSION=v1.6.35
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_35_UI.ino.bin
-NOTES=Hardened known-network Wi-Fi auto-reconnect. Firmware now owns reconnect timing instead of mixing ESP32 driver auto-reconnect with explicit retry logic. Modem sleep is disabled during association and restored after a stable connection. Failed or unavailable-network attempts enter controlled retry/backoff, with a Wi-Fi radio soft reset every third failed attempt. Adds WEN, WTRY and WRC reconnect diagnostics to companion status. Retains the resolved v1.6.33 Navigation/Control Center scroll behavior, visible fast BLE OTA progress, A105 WriteWithoutResponse firmware transfer, negotiated ATT payload sizing and firmware image/MD5/version verification.
+VERSION=v1.7.00
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_7_00_UI.ino.bin
+NOTES=Live telemetry demo bridge. Adds A106 binary vehicle telemetry notifications at 10 Hz from the watch's simulated VehicleData source. Broadcast includes RPM, speed, gear, throttle, brake, steering, battery voltage, oil pressure, coolant/oil/transmission temperatures, fuel pressure, MAP, barometric pressure, intake-air temperature, lambda and transmission inlet/outlet temperatures. Adds CAP=TLM1,TLMDEMO while retaining hardened Wi-Fi reconnect, resolved scrolling, visible BLE OTA progress and A105 firmware transfer.
 MD5=
