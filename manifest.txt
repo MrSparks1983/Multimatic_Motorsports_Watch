@@ -1,4 +1,4 @@
-VERSION=v1.6.28
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_28_UI.ino.bin
-NOTES=OTA validation target for the v1.6.25 direct-manifest pipeline. Successful installation should retrieve the manifest after BLE handoff using direct WiFiClientSecure transport, download and verify the firmware image, activate the inactive OTA partition, reboot once and reconnect reporting FW=v1.6.26.
+VERSION=v1.6.35
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_6_35_UI.ino.bin
+NOTES=Hardened known-network Wi-Fi auto-reconnect. Firmware now owns reconnect timing instead of mixing ESP32 driver auto-reconnect with explicit retry logic. Modem sleep is disabled during association and restored after a stable connection. Failed or unavailable-network attempts enter controlled retry/backoff, with a Wi-Fi radio soft reset every third failed attempt. Adds WEN, WTRY and WRC reconnect diagnostics to companion status. Retains the resolved v1.6.33 Navigation/Control Center scroll behavior, visible fast BLE OTA progress, A105 WriteWithoutResponse firmware transfer, negotiated ATT payload sizing and firmware image/MD5/version verification.
 MD5=
