@@ -1,4 +1,4 @@
-VERSION=v1.7.1
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_7_1_UI.ino.bin
-NOTES=Live telemetry TPMS expansion. Extends the existing A106 telemetry characteristic with frame type 2 four-corner TPMS snapshots at 2 Hz while retaining frame type 1 vehicle telemetry at 10 Hz. Broadcasts LF/RF/LR/RR pressure, temperature, valid/stale/offline state, age, sequence and source. The current trial uses the watch's existing Vehicle CAN TPMS demo values with subtle live movement for bench testing. Retains hardened Wi-Fi reconnect, resolved scrolling, fast BLE OTA, on-watch OTA progress and vehicle telemetry.
+VERSION=v1.7.4
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_7_4_UI.ino.bin
+NOTES=Windows-managed configurable telemetry alerts. Adds ALERTPUSH1 capability plus ALERT_PUSH and ALERT_CLEAR companion commands. Windows Watch Manager v0.4.7 adds configurable caution/critical thresholds for coolant temperature, oil/fuel pressure, oil/transmission/intake temperatures, vehicle voltage and TPMS pressure/temperature, with optional vehicle-specific Boost, MAP and Lambda thresholds disabled by default. Active Windows alerts can be pushed into the watch's existing Tech Alert overlay, audio, acknowledgement and history system. Retains Vehicle/TPMS/Engine A106 telemetry, telemetry sessions, hardened Wi-Fi reconnect, resolved scrolling and fast BLE OTA.
 MD5=
