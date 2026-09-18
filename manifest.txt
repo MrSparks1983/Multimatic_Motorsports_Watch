@@ -1,4 +1,4 @@
-VERSION=v1.8.1
+VERSION=v1.8.4
 BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_8_1_UI.ino.bin
 NOTES=GitHub TLS recovery release. Direct watch-side GitHub checks now hand BLE radio ownership to Wi-Fi before the first TLS handshake and use the direct NetworkClientSecure path for the official manifest. Adds a 30-second TLS handshake timeout, explicit HTTP/1.1 ALPN, internal TLS error-code logging, up to three secure-connect attempts, and one controlled Wi-Fi radio reset/reconnect before declaring a GitHub check failed. Wearer-facing errors remain sanitized. Windows Watch Manager BLE OTA remains independent and unchanged. Retains Crew popup and sound, A107 messaging, Vehicle/TPMS/Engine telemetry, Sessions, configurable Alerts, hardened Wi-Fi reconnect, resolved scrolling and fast BLE OTA.
 MD5=
