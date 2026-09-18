@@ -1,4 +1,4 @@
-VERSION=v1.8.5
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_8_5_UI.ino.bin
+VERSION=v1.8.6
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_8_6_UI.ino.bin
 NOTES=Production UI cleanup based directly on v1.8.4. Removes the red right-edge accent rail from the INSTALLED firmware card, removes Alert Preview / Preview Caution / Preview Critical from General Settings and removes their unused preview callbacks, renames the Settings LOGS section to ALERTS, cleans the Firmware Update tile subtitle to show Wi-Fi + BLE updates instead of legacy browser-OTA/IP status, and changes DUAL UPDATE READY to UPDATES READY. Retains the v1.8.4 make_label compile fix, Wi-Fi/GitHub updater boot mode, Windows Watch Manager BLE OTA, PSRAM framebuffer, TLS recovery, Crew messaging, alert history, real incoming alerts, telemetry, sessions, Wi-Fi reconnect and resolved scrolling.
 MD5=
