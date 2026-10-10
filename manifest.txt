@@ -1,4 +1,4 @@
-VERSION=v1.8.96
-BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_8_96_UI.ino.bin
-NOTES=Arduino prototype-generation compile fix: moves early enum/struct types into the bundled watch_early_types.h header. No runtime feature/protocol changes. Retains v1.8.95 Vitals branding with configurable MKIV vehicle subtitle, v1.8.94 transparent Home icons and LIVE DATA titles, and v1.8.92 Wi-Fi/BLE stability.
+VERSION=v1.8.116
+BIN_URL=https://raw.githubusercontent.com/MrSparks1983/Multimatic_Motorsports_Watch/firmware/Multimatic_Motorsports_Watch_v1_8_116_UI.bin
+NOTES=Larger 110x48 BF1 PRO shortcut on TPMS with 18px label. Retains BF1 layout, fixed Gearman and configuration/weather fixes. Matches Windows v0.9.126. Source only.
 MD5=
